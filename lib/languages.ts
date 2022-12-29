@@ -65,6 +65,17 @@ const definitions: Record<LanguageKey, LanguageDefinition> = {
         previewFilter: /^\s*#include/,
         monacoDisassembly: null,
     },
+    complex: {
+        name: 'Complex',
+        monaco: '',
+        extensions: ['.cx'],
+        alias: [],
+        logoUrl: '',
+        logoUrlDark: null,
+        formatter: null,
+        previewFilter: null,
+        monacoDisassembly: 'yaml',
+    },
     ada: {
         name: 'Ada',
         monaco: 'ada',

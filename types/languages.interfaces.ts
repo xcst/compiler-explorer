@@ -33,6 +33,7 @@ export type LanguageKey =
     | 'circt'
     | 'clean'
     | 'cmake'
+    | 'complex'
     | 'cpp_for_opencl'
     | 'cppx'
     | 'cppx_blue'
